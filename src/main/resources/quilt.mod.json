@@ -2,24 +2,24 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "abyssal",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Abyssal",
+			"description": "Abyssal",
 			"contributors": {
-				"Your name here": "Owner"
+				"Theboiboi8": "Creator"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/Theboiboi8/abyssal",
+				"issues": "https://github.com/Theboiboi8/abyssal/issues",
+				"sources": "https://github.com/Theboiboi8/abyssal"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/abyssal/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "me.theboiboi8.abyssal.Abyssal"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "abyssal.mixins.json"
 }
